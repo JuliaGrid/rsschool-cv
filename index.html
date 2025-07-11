@@ -4,11 +4,176 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
   <title>Document</title>
 </head>
 
-<body class="body">
-  Julia Gerasimenko
+<body>
+  <header>
+    <nav>
+      <ul class="menu">
+        <li>
+          <a href="#main">main</a>
+        </li>
+        <li>
+          <a href="#skills">skills</a>
+        </li>
+        <li>
+          <a href="#code">code</a>
+        </li>
+        <li>
+          <a href="#education">education</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="left">
+        <div class="wrapper">
+          <img class="about__photo" src="./assets/img/my-photo.PNG" alt="my photo" />
+          <ul>
+            <li>Discord: JuliaGrid</li>
+            <li>E-mail: test@test.ru</li>
+            <li>Phone: +7(777)-777-77-77</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <div>
+          <h1>Julia Gerasimenko</h1>
+          <h3>Frontend Developer</h3>
+        </div>
+
+        <div>
+          Frontend-developer with 4.5 years of experience in commercial React and TypeScript projects. I specialize in
+          creating
+          scalable UI components, optimizing performance, and reliable test coverage (unit, e2e). I am actively
+          working in an
+          Agile team, I know CI/CD tools and code review practices.
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="left">
+        <div class="wrapper">
+          <h2>Skills</h2>
+          <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>React</li>
+            <li>TypeScript</li>
+            <li>Graphql</li>
+            <li>ReactQuery</li>
+            <li>Jest</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Work experience</h2>
+        <ul>
+          <li>
+            <strong>Ecom.tech - September 2024 - January 2025</strong>
+            <p>The "Kuper" project, home page - shelves with
+              shops/restaurants, retailers page</p>
+
+            <em>Technologies used: React, TypeScript, ReactQuery, Gitlab</em>
+          </li>
+
+          <li>
+            <strong>SberTech - May 2021 - January 2024</strong>
+            <p>The "School 21" project, profile, campus map, reports, calendar,
+              project setup</p>
+
+            <em>Technologies used: React, TypeScript, GraphQL, MaterialUI, Storybook, Git, Jenkins, React Testing
+              Library,
+              Cucumber testing, Styled components.</em>
+          </li>
+
+          <li>
+            <strong>T1 - March 2020 - May 2021</strong>
+            <p>The "Comrade Shop" project, the entire website, landing page</p>
+
+            <em>Technologies used: React, TypeScript, Redux, Redux-saga, Axios, MaterialUI, Git, Jenkins, Vue, Web3,
+              Tailwind.</em>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="code">
+      <div class="left">
+        <div class="wrapper">
+          <h2>Portfolio</h2>
+          <ul>
+            <li>
+              <a href="https://github.com/JuliaGrid/six-cities">Six cities</a>
+            </li>
+            <li>
+              <a href="https://github.com/JuliaGrid/cloudApp">Cloud app</a>
+            </li>
+            <li>
+              <a href="https://github.com/JuliaGrid/parkingApp">Parking app</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Example code</h2>
+
+        <pre>
+          <code>
+function reverseWords(str) {
+  const arr = str.split(' ');
+  const res = arr.map((t) => t.split('').reverse().join(''))
+  return res.join(' ')         
+}
+          </code>
+        </pre>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="left">
+        <div class="wrapper">
+          <h2>Languages</h2>
+          <ul>
+            <li>English - B1</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            <p>2019</p>
+            <p>HTML Academy</p>
+          </li>
+          <li>
+            <p>2011-2018</p>
+            <p>School Gimnasium 1528</p>
+          </li>
+        </ul>
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/JuliaGrid">
+      <img width="80px" src="./assets/img/github-logo.png" alt="github">
+    </a>
+    <b>© 2025</b>
+    <a href="https://rs.school/courses/javascript-preschool-ru">
+      <img width="80px" src="./assets/img/rs-school-logo.svg" alt="github">
+    </a>
+  </footer>
+
 </body>
 
 </html>
